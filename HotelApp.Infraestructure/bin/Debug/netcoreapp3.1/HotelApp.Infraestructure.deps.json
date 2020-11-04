@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "HotelApp.Infraestructure/1.0.0": {
+        "dependencies": {
+          "HotelApp.Domain": "1.0.0"
+        },
+        "runtime": {
+          "HotelApp.Infraestructure.dll": {}
+        }
+      },
+      "HotelApp.Domain/1.0.0": {
+        "runtime": {
+          "HotelApp.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HotelApp.Infraestructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HotelApp.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

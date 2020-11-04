@@ -1,0 +1,77 @@
+﻿@model IEnumerable<HotelApp.Domain.Entities.Reservaciones>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Email_R)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Nombre_R)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Apellidos_R)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Fecha_Entrada_R)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Fecha_Salida_R)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Telefono_R)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Habitacion_R)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Especificaion_R)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email_R)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nombre_R)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Apellidos_R)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Fecha_Entrada_R)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Fecha_Salida_R)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Telefono_R)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Habitacion_R)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Especificaion_R)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id_Reserva">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id_Reserva">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id_Reserva">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
