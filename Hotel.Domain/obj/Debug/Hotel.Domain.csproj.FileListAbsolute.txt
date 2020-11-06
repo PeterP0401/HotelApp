@@ -1,0 +1,12 @@
+C:\Users\arxy2\source\repos\Hotel_A\Hotel.Domain\bin\Debug\Hotel.Domain.dll
+C:\Users\arxy2\source\repos\Hotel_A\Hotel.Domain\bin\Debug\Hotel.Domain.pdb
+C:\Users\arxy2\source\repos\Hotel_A\Hotel.Domain\obj\Debug\Hotel.Domain.csprojAssemblyReference.cache
+C:\Users\arxy2\source\repos\Hotel_A\Hotel.Domain\obj\Debug\Hotel.Domain.csproj.CoreCompileInputs.cache
+C:\Users\arxy2\source\repos\Hotel_A\Hotel.Domain\obj\Debug\Hotel.Domain.dll
+C:\Users\arxy2\source\repos\Hotel_A\Hotel.Domain\obj\Debug\Hotel.Domain.pdb
+C:\Users\ppech\Downloads\Hotel_A\Hotel.Domain\bin\Debug\Hotel.Domain.dll
+C:\Users\ppech\Downloads\Hotel_A\Hotel.Domain\bin\Debug\Hotel.Domain.pdb
+C:\Users\ppech\Downloads\Hotel_A\Hotel.Domain\obj\Debug\Hotel.Domain.csprojAssemblyReference.cache
+C:\Users\ppech\Downloads\Hotel_A\Hotel.Domain\obj\Debug\Hotel.Domain.csproj.CoreCompileInputs.cache
+C:\Users\ppech\Downloads\Hotel_A\Hotel.Domain\obj\Debug\Hotel.Domain.dll
+C:\Users\ppech\Downloads\Hotel_A\Hotel.Domain\obj\Debug\Hotel.Domain.pdb
