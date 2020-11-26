@@ -1,0 +1,88 @@
+﻿@model Hotel.Domain.Reservaciones
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Reservaciones</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Email_R)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Email_R)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Nombre_R)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nombre_R)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Apellidos_R)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Apellidos_R)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Fecha_Entrada_R)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Fecha_Entrada_R)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Fecha_Salida_R)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Fecha_Salida_R)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Telefono_R)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Telefono_R)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Habitacion_R)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Habitacion_R)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Especificaion_R)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Especificaion_R)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>
