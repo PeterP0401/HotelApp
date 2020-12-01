@@ -10,3 +10,15 @@ C:\Users\arxy2\source\repos\Hotel\Hotel.Domain\obj\Debug\Hotel.Domain.csproj.Cor
 C:\Users\arxy2\source\repos\Hotel\Hotel.Domain\obj\Debug\Hotel.Domain.csproj.CopyComplete
 C:\Users\arxy2\source\repos\Hotel\Hotel.Domain\obj\Debug\Hotel.Domain.dll
 C:\Users\arxy2\source\repos\Hotel\Hotel.Domain\obj\Debug\Hotel.Domain.pdb
+C:\Users\ppech\Documents\GitHub\HotelApp\Hotel.Domain\bin\Debug\Hotel.Domain.dll.config
+C:\Users\ppech\Documents\GitHub\HotelApp\Hotel.Domain\bin\Debug\Hotel.Domain.dll
+C:\Users\ppech\Documents\GitHub\HotelApp\Hotel.Domain\bin\Debug\Hotel.Domain.pdb
+C:\Users\ppech\Documents\GitHub\HotelApp\Hotel.Domain\bin\Debug\EntityFramework.dll
+C:\Users\ppech\Documents\GitHub\HotelApp\Hotel.Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ppech\Documents\GitHub\HotelApp\Hotel.Domain\bin\Debug\EntityFramework.xml
+C:\Users\ppech\Documents\GitHub\HotelApp\Hotel.Domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ppech\Documents\GitHub\HotelApp\Hotel.Domain\obj\Debug\Hotel.Domain.csprojAssemblyReference.cache
+C:\Users\ppech\Documents\GitHub\HotelApp\Hotel.Domain\obj\Debug\Hotel.Domain.csproj.CoreCompileInputs.cache
+C:\Users\ppech\Documents\GitHub\HotelApp\Hotel.Domain\obj\Debug\Hotel.Domain.csproj.CopyComplete
+C:\Users\ppech\Documents\GitHub\HotelApp\Hotel.Domain\obj\Debug\Hotel.Domain.dll
+C:\Users\ppech\Documents\GitHub\HotelApp\Hotel.Domain\obj\Debug\Hotel.Domain.pdb
