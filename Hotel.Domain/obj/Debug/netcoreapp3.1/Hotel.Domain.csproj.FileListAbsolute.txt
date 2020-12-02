@@ -1,0 +1,12 @@
+C:\Users\arxy2\source\repos\Hotel.API\Hotel.Domain\bin\Debug\netcoreapp3.1\Hotel.Domain.deps.json
+C:\Users\arxy2\source\repos\Hotel.API\Hotel.Domain\bin\Debug\netcoreapp3.1\Hotel.Domain.runtimeconfig.json
+C:\Users\arxy2\source\repos\Hotel.API\Hotel.Domain\bin\Debug\netcoreapp3.1\Hotel.Domain.runtimeconfig.dev.json
+C:\Users\arxy2\source\repos\Hotel.API\Hotel.Domain\bin\Debug\netcoreapp3.1\Hotel.Domain.dll
+C:\Users\arxy2\source\repos\Hotel.API\Hotel.Domain\bin\Debug\netcoreapp3.1\Hotel.Domain.pdb
+C:\Users\arxy2\source\repos\Hotel.API\Hotel.Domain\obj\Debug\netcoreapp3.1\Hotel.Domain.csprojAssemblyReference.cache
+C:\Users\arxy2\source\repos\Hotel.API\Hotel.Domain\obj\Debug\netcoreapp3.1\Hotel.Domain.AssemblyInfoInputs.cache
+C:\Users\arxy2\source\repos\Hotel.API\Hotel.Domain\obj\Debug\netcoreapp3.1\Hotel.Domain.AssemblyInfo.cs
+C:\Users\arxy2\source\repos\Hotel.API\Hotel.Domain\obj\Debug\netcoreapp3.1\Hotel.Domain.csproj.CoreCompileInputs.cache
+C:\Users\arxy2\source\repos\Hotel.API\Hotel.Domain\obj\Debug\netcoreapp3.1\Hotel.Domain.dll
+C:\Users\arxy2\source\repos\Hotel.API\Hotel.Domain\obj\Debug\netcoreapp3.1\Hotel.Domain.pdb
+C:\Users\arxy2\source\repos\Hotel.API\Hotel.Domain\obj\Debug\netcoreapp3.1\Hotel.Domain.genruntimeconfig.cache

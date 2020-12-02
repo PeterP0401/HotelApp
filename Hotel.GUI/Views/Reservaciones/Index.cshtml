@@ -1,0 +1,83 @@
+﻿@model IEnumerable<Hotel.GUI.Models.Reservaciones>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.IdReserva)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EmailR)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NombreR)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ApellidosR)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FechaEntradaR)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FechaSalidaR)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TelefonoR)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.HabitacionR)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EspecificaionR)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdReserva)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EmailR)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NombreR)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ApellidosR)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FechaEntradaR)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FechaSalidaR)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TelefonoR)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HabitacionR)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EspecificaionR)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new {  id=item.IdReserva  }) |
+                @Html.ActionLink("Details", "Details", new { id = item.IdReserva }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.IdReserva })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
